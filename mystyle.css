@@ -1,0 +1,398 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: #BAE8E8;
+}
+/* This is navbar section where i van design the vanbar background*/
+#navbar {
+  width: 100%;
+  height: 80px;
+  background-color: #1AA6B7;
+}
+
+#navbar h3 {
+  position: absolute;
+  padding: 3px;
+  float: left;
+  margin-left: 4%;
+  margin-top: 25px;
+  color: #757575;
+  font-family: 'Audiowide', astigmatic;
+  font-size: 20px;
+}
+
+#navbar span {
+  color: #BDBDBD;
+  font-family: 'Audiowide', astigmatic;
+  
+}
+/* This is the end of navbar section*/
+
+/* This is the nav section where i can put the title of nav.*/
+.nav ul {
+  width: auto;
+  float: right;
+}
+
+.nav li {
+  align-items: center;
+  display: inline-block;
+  padding: 4px 20px;
+  margin-top: 4px;
+}
+
+.nav a {
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-family:'Open Sans', Sans-Serif;
+  font-size: 20px;
+  border-radius: 3px;
+}
+/* The end of the nav section.*/
+@media only screen and (max-width: 768px){
+  /*for mobile phones*/
+  #navbar {
+    width: 100%;
+    height: 70px;
+    background-color: #1AA6B7;
+  }
+  
+  #navbar h3 {
+  position: absolute;
+  padding: 3px;
+  float: left;
+  margin-left: 7%;
+  margin-top: 25px;
+  color: #757575;
+  font-family: 'Audiowide', astigmatic;
+  font-size: 20px;
+  }
+  
+  .nav {
+    display: none;
+  }
+}
+
+/* This part is the card where my avatar and other about me.*/
+.card {
+  border-radius: 11px;
+  float: auto;
+  border-color: 4px;
+  padding: 100px;
+  margin: 50px;
+  background-image: linear-gradient(to right top, #00E1FD , #FC007A);
+  box-shadow: 10px 10px 10px 0 grey;
+}
+
+.avatar img {
+  height: 200px;
+  width: 200px;
+  align-items: center;
+  border-radius: 50%;
+  object-fit: contain;
+ 
+}
+
+#Name {
+  text-align: center;
+  color: #52575D;
+}
+#Name h1{
+  color:#ED80A0;
+}
+#Name span {
+  color:#ED80A0;
+}
+/* This is the end of card,avatar, name.*/ 
+
+/* This is the container section and about me section*/
+.about{
+  color: #ED80A0;
+}
+
+.about h1 {
+  text-align: center;
+}
+.about h3 {
+  color: #52575D;
+}
+.about h2 {
+  color: #ED80A0;
+}
+#Container{
+  border-radius: 11px;
+  float: auto;
+  border-color: 4px;
+  padding: 100px;
+  margin: 50px;
+  background-image: linear-gradient(to right top, #00E1FD , #FC007A);
+  box-shadow: 10px 10px 10px 0 grey;
+  justify: justify-content;
+}
+/* This is the end of Container*/
+
+/* This is a button section where you can design the button*/
+#Container .button {
+  border: 2px solid #6807F9;
+  background-color: #6807F9;
+  padding: 30px 20px;
+  font-size: 40px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 20px;
+  margin-top: 30px;
+  margin-left: 200px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  display: center;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #6807F9;
+}
+
+#Container .button a{
+  color: #fff;
+  text-decoration: none;
+  font-family:'Open Sans', Sans-Serif;
+}
+
+#Container .button:hover{
+  display: float;
+  color: #ffffff;
+  background-color: #6807F9;
+  border: solid #6807F9;
+}
+
+#Container .button::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background-color: #00CED1;
+  z-index: -1;
+  transition: 0.8s;
+}
+
+@media screen and (max-width: 768px){
+  /*media screen of .contaner button{}*/
+  #Container .button {
+    border: 2px solid #6807F9;
+    background-color: #6807F9;
+    padding: 30px 20px;
+    font-size: 40px;
+    font-family: "montserrat";
+    cursor: pointer;
+    margin: 20px;
+    margin-left: 200px;
+    transition: 0.8s;
+    position: relative;
+    display: center;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #6807F9;
+  }
+
+  #Container .button a{
+    color: #fff;
+    text-decoration: none;
+    font-family:'Open Sans', Sans-Serif;
+  }
+
+  #Container .button:hover{
+    display: float:
+    color: #fff;
+    background-color: #6807F9;
+    border: solid #6807F9;
+  }
+  
+  #Container .button::after{
+    background-color: #6807F9;
+  }
+  #Container .button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #6807F9;
+    z-index: -1;
+    transition: 0.8s;
+  }
+}
+/* This is the end of the button section*/
+
+/* This is the contact section where they can contact me via Gmail.*/ 
+
+ .contact {
+  border-radius: 11px;
+  float: auto;
+  border-color: 4px;
+  padding: 100px;
+  margin: 50px;
+  background-image: linear-gradient(to right top, #00E1FD , #FC007A);
+  box-shadow: 10px 10px 10px 0 grey;
+  justify: justify-content;
+  display: center;
+  align-items: center;
+}
+
+.contact h1 {
+  text-align: center;
+  color: #ED80A0;
+}
+
+.form {
+  margin: 30px;
+  padding: 100px;
+  align-items: center;
+}
+
+.input-field {
+  display: center;
+  width: 400px;
+  height: 40px;
+  margin-top: 15px;
+  margin-left: 120px;
+  padding-left: 20px;
+  padding-right: 10px;
+  border-radius: 15px;
+  border: 2px solid #fff;
+  outline: none;
+}
+
+.textarea-field {
+  height:100px;
+  padding-top: 10px;
+}
+
+.submit-btn {
+  border: 2px solid #6807F9;
+   background-color: #6807F9;
+   color: #fff;
+   padding: 30px 30px;
+   font-size: 30px;
+   font-family: "montserrat";
+   cursor: pointer;
+   margin: 50px;
+   margin-left: 250px;
+   margin-top: 70px;
+   transition: 0.8s;
+   position: relative;
+   display: center;
+   border-radius: 15px;
+   box-shadow: 0 0 20px #6807F9;
+}
+
+
+
+
+
+/*this is ghe end of my contact section*/
+
+@media screen and (max-width: 768px) {
+  
+  .card {
+    align-items: center;
+    border-radius: 11px;
+    float: auto;
+    border-color: 4px;
+    padding: 60px;
+    margin: 20px;
+    background-color: rgb(66,66,66);
+    justify: justify-content;
+  }
+  
+  #Container{
+    border-radius: 11px;
+    float: auto;
+    border-color: 4px;
+    padding: 60px;
+    margin: 20px;
+    background-color: rgb(66, 66, 66);
+    justify: justify-content;
+    color: rgb(189, 189, 189);
+    padding
+  }
+  
+  #Container .button {
+    border: 2px solid #696969;
+    background-color: #696969;
+    padding: 20px 20px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: "montserrat";
+    cursor: pointer;
+    transition: 0.8s;
+    position: center;
+    overflow: hidden;
+    color: #ffffff;
+    display: float;
+    border-radius: 15px;
+  }
+  .contact {
+    display: block;
+    border-radius: 11px;
+    float: auto;
+    border-color: 4px;
+    padding: 60px;
+    margin: 20px;
+    background-image: linear-gradient(to right top, #00E1FD , #FC007A);
+    box-shadow: 10px 10px 10px 0 grey;
+    justify: justify-content;
+    
+  }
+  .contact h1{
+    text-align: center;
+  }
+  
+  /*this is contact form */
+  .form {
+    width: 100%;
+    margin: 100px;
+    padding: 100px;
+    align-items: center;
+  }
+
+  .input-field {
+    align-items: center;
+    display: center;
+    width: 250px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: -39px;
+    margin-right: px;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    outline: none;
+  }
+
+  .textarea-field {
+    height:100px;
+    padding-top: 10px;
+  }
+  
+  
+  .submit-btn{
+   border: 2px solid #6807F9;
+   background-color: #6807F9;
+   color: #fff;
+   padding: 20px 30px;
+   font-size: 20px;
+   font-family: "montserrat";
+   cursor: pointer;
+   margin: 50px;
+   margin-left: 35px;
+   margin-top: 70pxpx;
+   transition: 0.8s;
+   position: relative;
+   display: center;
+   border-radius: 15px;
+   box-shadow: 0 0 20px #6807F9;
+  }
+  
+}
+
+
+
+
